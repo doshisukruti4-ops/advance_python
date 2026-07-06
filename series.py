@@ -29,3 +29,5 @@ employee_data={
     }
 df1=pd.DataFrame(employee_data)
 print(df1)
+print(df1.info())
+print(df1.describe())
